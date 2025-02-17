@@ -1,0 +1,700 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+nav{
+    /* border: 2px solid; */
+    height: 64px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+nav section{
+    /* border: 2px solid red; */
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #d1{
+    /* border: 2px solid red; */
+    width: 27%;
+    /* height: 50px; */
+}
+nav #d1 ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+nav #d2 {
+    /* border: 2px solid green; */
+    /* height: 50px; */
+    width: 23%;
+}
+nav #d2 ol{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+}
+#li1{
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: 400;
+}
+#d2 button{
+     border: 2px solid;
+     border-radius: 20px;
+     height: 40px;
+     width: 200%;
+     font-weight: 600;
+     font-size: 14px;
+     cursor: pointer;
+}
+#d2 li{
+    /* background-color: aqua; */
+    border-radius: 25px;
+    height: 35px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d2 li:hover{
+    background-color: rgb(40, 38, 38);
+    cursor: pointer;
+}
+
+#sec1{
+    /* border: 2px solid; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+#sec1 section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+}
+#sec1 #d4{
+    /* border: 2px solid; */
+    width: 40%;
+}
+#sec1 #d3{
+    /* border: 2px solid; */
+    width: 15%;
+    font-size: 25px;
+    font-weight: 700;
+}
+#sec1 ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+#sec1 ol li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#sec2{
+    /* border: 2px solid red; */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#sec2 div{
+    /* border: 2px solid green; */
+    height: 600px;
+    width: 37%;
+}
+#sec2 img{
+    height: 600px;
+    width: 100%;
+}
+#sec2 h1{
+    font-size: 50px;
+}
+#sec2 input{
+    width: 68%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3f3f3;
+}
+#sec2 button{
+    border-radius: 10px;
+    width: 23%;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#sec2 button+button{
+    width: 35%;
+    background-color: #f3f3f3;
+    color: black;
+}
+#sec2 button+button:hover{
+    background-color: rgb(220, 219, 219);
+}
+#sec2 input::placeholder{
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+#sec2 input::focus{
+    border: 2px solid black;
+}
+#nav_icon{
+    position: absolute;
+    left: 34%;
+    top: 66%;
+    font-size: 25px;
+    cursor: pointer;
+}
+#dot_icon{
+    position: absolute;
+    left: 12.5%;
+    top: 67.5%;
+    font-size: 10px;
+}
+#sq_icon{
+    position: absolute;
+    left: 12.5%;
+    top: 76.5%;
+    font-size: 10px;
+}
+#line_pipe{
+    border-left: 1px solid;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    left: 12.8%;
+    top: 69.5%;
+}
+
+#sec3{
+    /* border: 2px solid; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+#sec3 aside{
+    /* border: 2px solid red; */
+    width: 78%;
+}
+#sec3 h1{
+    /* border: 2px solid; */
+    width: 80%;
+    font-size: 35px;
+}
+#sec3 article{
+    /* border: 2px solid green; */
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#sec3 div{
+    /* border: 2px solid orange; */
+    height: 180px;
+    width: 380px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    display: flex;
+}
+#sec3 section{
+    /* border: 2px solid; */
+    width: 400px;
+    padding-left: 10px;
+}
+#sec3 img{
+    width: 150px;
+    height: 150px;
+}
+#sec3 p{
+    font-size: 13px;
+    line-height: 20px;
+}
+#sec3 button{
+    border-radius: 25px;
+    height: 30px;
+    width:65px ;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+}
+#sec3 button:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+#sec4{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+}
+#sec4 section{
+    /* border: 2px solid red; */
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+#sec4 div{
+    /* border: 2px solid; */
+    width: 397px;
+}
+#sec4 h1{
+    font-size: 40px;
+}
+#sec4 p{
+    font-size: 16px;
+}
+#sec4 button{
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#sec5{
+        /* border: 2px solid; */
+        height: 750px;
+        display: flex;
+        justify-content: center;
+
+}
+#sec5 aside{
+    /* border: 2px solid; */
+    height: 700px;
+    width: 80%;
+   
+}
+#sec5 h1{
+    font-size: 35px;
+}
+#sec5 article{
+    /* border: 2px solid green; */
+    height: 600px;
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 30px;
+}
+#sec5 section{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 90%;
+}
+#sec5 section img{
+    /* border: 2px solid yellow; */
+    height: 350px;
+    width: 100%;
+}
+#sec5 section div{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 90%;
+}
+#sec5 h4{
+    font-size: 20px;
+}
+#sec5 p{
+    font-size: 16px;
+}
+#sec5 button{
+    width: 65%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#sec5 a{
+    
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+#sec6{
+    /* border: 2px solid; */
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+}
+#sec6 aside{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 950%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#sec6 div{
+    /* border: 2px solid yellow; */
+    height: 350px;
+    width: 27%;
+    color: white;
+}
+#sec6 section{
+    /* border: 2px solid; */
+    padding-left: 42px;
+}
+#sec6 h1{
+    font-size: 40px;
+}
+#sec6 p,section{
+    font-size: 17px;
+}
+#sec6 button{
+    height: 50px;
+    width: 35%;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#sec6 a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+#sec6 a:hover{
+    color: lightgray;
+}
+
+
+
+#sec7{
+    /* border: 2px solid; */
+    height: 600px;
+}
+#sec7 h1{
+    /* border: 2px solid red; */
+    width: 81%;
+    margin: auto;
+    font-size: 40px;
+    color: #333333;
+}
+#sec7 aside{
+    /* border: 2px solid; */
+    height: 400px;
+    width: 81%;
+    margin: auto;
+
+}
+#sec7 aside summary{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    height: inherit;
+    padding: 15px;
+}
+#sec7 details{
+    border-bottom: 1px solid lightgray;
+}
+#sec7 span{
+    font-size: 25px;
+    float: right;
+}
+#sec7 p{
+    padding-left: 20px;
+}
+#sec7 button{
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+#sec8{
+    /* border: 2px solid; */
+    background-color: #F6F6F6;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#sec8 div{
+    /* border: 2px solid; */
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+#sec8 div>div{
+    /* border: 2px solid green; */
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+#sec8 div>div>div {
+    /* border: 2px solid blue; */
+    background-color: #ffffff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px;
+}
+#sec8 div>div>div>div{
+    /* border: 2px solid palevioletred; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+}
+#sec8 h2{
+    width: 100%;
+}
+#sec8 h1{
+    font-size: 37px;
+}
+#sec8 img{
+    width: 150px;
+}
+#sec8 i{
+    font-size: 30px;
+}
+#sec8 i:hover{
+    transform: translateX(20px);
+    transition-duration: 1s;
+}
+
+
+#sec9{
+    height: 360px;
+    /* border: 2px solid; */
+}
+
+#sec9 aside{
+    width: 75%;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between;*/
+} 
+
+#sec9 div{
+    width: 530px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+#sec9 h1{
+    font-size: 35px;
+}
+
+#sec9 span i{
+    font-weight: 300;
+    font-size: 60px;
+}
+
+#sec9 span:hover{
+    transform: translateX(5px);
+    transition: ease;
+}
+
+#sec9 article{
+    border: 1px solid;
+    height: 1px;
+    width: 520px;
+    border-bottom: 1px;
+}
+
+#sec9 p{
+    color: #333333;
+}
+
+#sec10{
+    border: 2px solid;
+    height: 950px;
+    background-color: black;
+    color: white;
+}
+
+#sec10 aside{
+    height: 900px;
+    width: 75%;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+
+#sec10 span p{
+    float: right;
+    cursor: pointer;
+
+}
+
+#sec10 section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+#sec10  section div{
+    /* border: 2px solid orange; */
+    width: 200px;
+    height: 380px;
+    
+}
+
+#sec10 li{
+    list-style: none;
+    cursor: pointer;
+}
+
+#sec10 li:hover{
+    color: gray;
+}
+
+#sec10 h5{
+    cursor: pointer;
+}
+
+#bot{
+    cursor: pointer;
+    border-bottom: 10px;
+    height: 80px;
+    width: 130px;
+    border: 2px solid black;
+    border-bottom-color: black;
+}
+
+#bot:hover{
+    border-bottom-color: white;
+}
+
+#sec10 article{
+    height: 100px;
+    /* border: 2px solid brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#sec10 article div{
+    width: 46%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#sec10 article span{
+    color: #fff;
+    /* padding-left: 30px; */
+
+}
+
+#div1{
+    font-size: 20px;
+    
+}
+
+#sec10 article #div1 i{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#sec10 article #div1 i:hover{
+    background-color: rgb(71, 71, 71);
+    
+
+}
+
+#sec10 div{
+    /* border: 2px solid; */
+    height: 50px;
+}
+
+#sec10 img{
+    width: 150px;
+    height: 50px;
+}
+
+#sec10 footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    font-size: 13px;
+}
+
+
+#sec10 span p:hover{
+    color: gray;
+
+}
+
+
+#main{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#sec10 h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+#sec10 footer span:hover{
+    color: #4b4949;
+    cursor: pointer;
+}
+
+#img{
+    cursor: pointer;
+}
+
+#div2 div:hover{
+    background-color: rgb(71, 71, 71);
+
+}
